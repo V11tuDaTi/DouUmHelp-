@@ -1,0 +1,36 @@
+.navbar {
+    display: flex; 
+    justify-content: center; /* Garante que os itens estejam no centro */
+    align-items: center;
+    position: relative; /* Para trabalhar com posição absoluta */
+    background-color: #d2e90a;
+    padding: 10px 20px;
+  }
+  
+  .navbar-logo {
+    position: absolute;
+    left: 10px; /* Ajusta para o canto esquerdo */
+    height: 50px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+  }
+  .navbar-links a {
+    text-decoration: none; /* Remove sublinhado */
+    color: white; /* Cor do texto */
+    font-size: 18px; /* Tamanho do texto */
+    font-weight: bold; /* Negrito */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: 3px solid transparent; /* Borda inicial */
+    border-radius: 8px; /* Borda arredondada */
+    transition: all 0.3s ease; /* Efeito suave de transição */
+  }
+  
+  .navbar-links a:hover {
+    color: #f0c14b; /* Cor do texto ao passar o mouse */
+    border-color: #f0c14b; /* Cor da borda ao passar o mouse */
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo leve ao passar o mouse */
+  }
+  

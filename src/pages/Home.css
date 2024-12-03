@@ -1,0 +1,13 @@
+/* Estilos básicos para a página Home */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+  }
+  
+  .about {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
